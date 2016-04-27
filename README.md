@@ -5,9 +5,9 @@ autoTest.py 主文件，在这里开启服务，添加测试用例，开启测�
 
 case.py	所有测试用例文件
 
-driver.py	测试项目壳子设置
+driver.py	测试项目客户端文件设置
 
-HTMLTestRunner.py	测试报告模块，网上现成的，可以试着改下ta自带的样式
+HTMLTestRunner.py	测试报告模块，网上现成的
 
 log.py	log模块，用的python自带的logging
 
