@@ -1,7 +1,7 @@
 # autoTest
 auto test with Appium on Mac with python client
 
-
+--------------\-----------
 \| autoTest.py \| 主文件，在这里开启服务，添加测试用例，开启测试等
 case.py	|所有测试用例文件
 driver.py	测试项目壳子设置
