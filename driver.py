@@ -4,7 +4,7 @@ from appium import webdriver
 class Driver():
 
     def sgDriver(self):
-        app = os.path.join(os.path.dirname(__file__),'/Users/haoran.li/test/sgll/','ST92.app')
+        app = os.path.join(os.path.dirname(__file__),'/Users/henry/test/sgll/','ST92.app')
         app = os.path.abspath(app)
         desired_caps = {}
         desired_caps['platformName'] = 'iOS'
