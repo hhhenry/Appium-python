@@ -16,7 +16,7 @@ class report():
         return timestr
 
     def fileName(self):
-        filename = "/Users/haoran.li/test/autoTest/result" + self.testDate() + ".html"
+        filename = "/Users/henry/test/autoTest/result" + self.testDate() + ".html"
 
         return filename
 
@@ -24,11 +24,11 @@ class report():
         fp = open(self.fileName(), 'wb')
         runner = HTMLTestRunner.HTMLTestRunner(
                 stream=fp,
-                title='三国测试结果',
-                description='三国测试报告'
+                title='测试结果',
+                description='测试报告'
                 )
         runner.run(suite)
 
-        log.sgLog('开始测试三国')
+        log.sgLog('开始测试')
 
         fp.close()
