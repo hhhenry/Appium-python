@@ -8,7 +8,7 @@ log = Log()
 class CreateSuite():
 
     def add_sg_case(self):
-        log.sgLog('添加三国测试用例')
+        log.sgLog('添加测试用例')
 
         suite = unittest.TestSuite()
         suite.addTest(TestCase("test_sg_register"))
