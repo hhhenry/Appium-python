@@ -10,7 +10,7 @@ log = Log()
 class sendEmail():
 
     def sgEmail(self):
-        log.sgLog('发送三国测试结果\n')
+        log.sgLog('发送测试结果\n')
         testDate = report().testDate()
         filename = report().fileName()
 
@@ -19,9 +19,9 @@ class sendEmail():
         part1 = MIMEText(html,'html','utf-8')
         msg.attach(part1)
 
-        msg['to'] = 'haoran.li@redatoms.com'
-        msg['from'] = 'haoran.li@redatoms.com'
-        msg['subject'] = '三国前台自动化测试报告' + testDate
+        msg['to'] = 'email address'
+        msg['from'] = 'email address'
+        msg['subject'] = '前台自动化测试报告' + testDate
 
         try:
             server = smtplib.SMTP()
@@ -29,7 +29,7 @@ class sendEmail():
             server.ehlo()
             server.starttls()
             server.ehlo()
-            server.login('haoran.li@redatoms.com','Confuse0210')
+            server.login('username','password')
             server.sendmail(msg['from'], msg['to'],msg.as_string())
             server.quit()
             print '发送成功'
