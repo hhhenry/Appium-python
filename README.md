@@ -1,4 +1,2 @@
 # autoTest
-Appium
-Mac
-python client
+auto test with Appium on Mac with python client
