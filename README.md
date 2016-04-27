@@ -1,1 +1,4 @@
-# autoTest-Appium
+# autoTest
+Appium
+Mac
+python client
