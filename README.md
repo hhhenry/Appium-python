@@ -1,5 +1,5 @@
-# autoTest
-auto test with Appium on Mac with python client
+# UI Test
+UI test with Appium on Mac with python client
 
 autoTest.py 主文件，在这里开启服务，添加测试用例，开启测试等
 
